@@ -88,10 +88,7 @@ jobs:
         chmod +x ./diy.sh
         ./diy.sh
         ./scripts/feeds update -a
-        ./scripts/feeds install -a
-        ./scripts/feeds update qmodem
-        ./scripts/feeds install -a -p qmodem
-        ./scripts/feeds install -a -f -p qmodem      
+        ./scripts/feeds install -a      
 
     # --------------------------------------------------------
     # 步骤 6：生成配置文件 (.config)
