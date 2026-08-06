@@ -21,7 +21,7 @@ on:
 env:
   REPO_URL: https://github.com/fat4-alt/openwrt-mt798x-rebase
   REPO_BRANCH: 25.12
-  CONFIG_FILE: 25.12.config
+  CONFIG_FILE: .config
   DIY_SH: diy.sh
   FREE_SPACE: true
   UPLOAD_FIRMWARE: true
